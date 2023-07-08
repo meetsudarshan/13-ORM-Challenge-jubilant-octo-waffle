@@ -3,6 +3,7 @@ const { Inventory, Product, Tag, ProductTag } = require('../models');
 
 const seedInventory = require('./inventory');
 const seedProducts = require('./product-seeds');
+const seedproductTags = require('./product-tag-seeds');
 const seedTags = require('./tag-seeds');
 
 const seedAll = async () => {
@@ -18,6 +19,9 @@ const seedAll = async () => {
 
   await seedProducts();
   console.log('\n----- PRODUCTS SEEDED -----\n');
+
+  await seedproductTags();
+  console.log('\n----- PRODUCTS TAGS SEEDED -----\n');
 
   console.log('\n----- DATABASE SEEDED -----\n');
 
