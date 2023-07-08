@@ -25,8 +25,10 @@ THEN I am able to successfully create, update, and delete data in my database
 ## Link to my video
 [Click here to watch my video](https://drive.google.com/file/d/1rg9XjCPidBp1NUaQU1pCQZ1YSoQpsAJG/view)
 
-```
+
 ## Steps to execute:
+```
+
   - Git Clone
   - npm i
   - open db folder in terminal
@@ -38,3 +40,8 @@ THEN I am able to successfully create, update, and delete data in my database
     SHOW TABLES;
     SELECT * FROM <TABLE_NAME>;
 ```
+
+
+## Dependencies
+
+I referred to W3 schools heavily, worked with groups from bootcamp to troubleshoot issues and took help from Bootcamp assistant for help address my issues
