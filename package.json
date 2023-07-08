@@ -14,7 +14,7 @@
       "url": ""
     },
     "keywords": [],
-    "author": "",
+    "author": "Sudar",
     "license": "ISC",
     "devDependencies": {
       "nodemon": "^2.0.3"

@@ -21,3 +21,20 @@ WHEN I open API GET routes in Insomnia for categories, products, or tags
 THEN the data for each of these routes is displayed in a formatted JSON
 WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete data in my database
+```
+## Link to my video
+[Click here to watch my video](https://drive.google.com/file/d/1rg9XjCPidBp1NUaQU1pCQZ1YSoQpsAJG/view)
+
+```
+## Steps to execute:
+  - Git Clone
+  - npm i
+  - open db folder in terminal
+  - perform mysql -u -p and enter your creds
+  - perform source schema.sql
+  - go to bash and perform node seeds/seed.js and confirm seed is successful
+  - go to mysql terminal and use each of the following commands to access your db, then view your tables
+    USE ECOMMERCE_DB;
+    SHOW TABLES;
+    SELECT * FROM <TABLE_NAME>;
+```
